@@ -1,0 +1,73 @@
+.logo{
+	padding: 0 0 0 10px;
+	width: 92px;
+}
+header{
+	color: #e3f2fd;
+	height: 50px;
+	background: #02000E;
+	font-family: 'Merriweather', serif;
+}
+header a{
+	color: #e3f2fd;
+	text-decoration: none;
+	display: inline-block;
+}
+header a:hover{
+	color: #d32f2f;
+}
+.espacio{
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.splash{
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background: url(../imagenes/fondo.jpg)center center fixed;
+}
+.centrado{
+	text-align: center;
+}
+.alineado{
+	text-align: left;
+}
+.video{
+	width: 100%;
+	height: 55vh;
+}
+.tabs{
+	font-family: 'Merriweather', serif;
+	color: #e3f2fd;
+	background: #030E29;
+	padding: 10px;
+}
+nav ul{
+	float:right;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+nav ul li{
+	display: inline-block;
+	padding-left: 15px;
+}
+.contacto{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url(../imagenes/contacto.jpg) center ;
+	font-family: 'Merriweather', serif;
+	color: #e3f2fd;
+}
+p a i {
+	margin: 10px;
+	color: #e3f2fd;
+}
+button{
+	background: #030E29!important;
+	color: #e3f2fd!important;
+	border:#e3f2fd;
+}
+.accordion-body{
+	margin: 1px!important;
+	padding: 1px!important;
+}
