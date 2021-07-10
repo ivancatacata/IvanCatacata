@@ -10,7 +10,7 @@
 		body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; }
 		#particles-js{ position:fixed; width: 100%; height: 100vh; background-color: #02000E; z-index: 1;} .row{margin: auto;} .logo{width: 130px;} h3:nth-child(1){padding-top: 10px;}
 		header, footer{background: #030E29; opacity: .8; padding: 30px; color: #e3f2fd; font-family: Helvetica; font-size: 3vh; text-align: center; position: relative;z-index: 50; border: solid;}
-		.container{position: relative; z-index: 55;} h3 b{text-decoration: underline; margin-top: 0;} p{font-size: 17px; padding: 30px; margin-bottom: 0px;} section{border-left:solid #e3f2fd;;border-right: solid #e3f2fd;;} .iconos{font-size: 150px; padding: 25px;} h4{padding-top: 10px;}
+		.container{position: relative; z-index: 55;} h3 b{text-decoration: underline; margin-top: 0;} p{font-size: 17px; padding: 30px; margin-bottom: 0px; text-align: justify;} section{border-left:solid #e3f2fd;;border-right: solid #e3f2fd;;} .iconos{font-size: 150px; padding: 25px;} h4{padding-top: 10px;} .yo{width: 100%;}
 		.fondo{background: #030E29; opacity: .8; color: #e3f2fd;font-family: Helvetica;} .centrado{text-align: center;} a{text-decoration: none; color: #e3f2fd; font-size: 65px;} a:hover{color: #004d40;}
 		.fondo2{background: #004d40; opacity: .7; color: #e3f2fd;font-family: Helvetica;} footer .row{ padding-bottom: 10px; padding-top: 10px;}
 	</style>
@@ -21,11 +21,16 @@
 		<header>¡Hola, bienvenido a mi página!, yo soy <strong>Iván Catacata</strong> y quiero agradecerte por tomarte el tiempo de entrar.</header>
 		<section>
 			<div class="row">
-			<div class="col-md-4 fondo centrado">
-				<h3><b>Sobre mi</b></h3>
-				<p>Nací en enero del 2001, actualmente tengo 20 años. Soy técnico en Administración de Empresas y me encuentro cursando la carrera de Ingeniería en Sistemas en la Universidad Tecnológica Nacional. En mis tiempos de ocio disfruto entrenar, tocar la guitarra y aprender cosas nuevas que me llamen la atención o me parezcan interesantes, ver series/peliculas y jugar.</p><br>
-				<h3><b>Qué busco</b></h3>
-				<p>Lo que busco es Formar parte de una empresa que me permita desarrollar todos mis conocimientos y habilidades con total compromiso y predisposición para seguir aprendiendo e incorporando nuevos conocimientos, soy capaz de aprender lo que se requiera para llevar a cabo algún proyecto. Quiero agregar valor en cada una de las tareas que se me asignen y en donde pueda crecer tanto en lo laboral como personal.</p>
+			<div class="col-md-4 fondo">
+				<h3 class="centrado"><b>Sobre mi</b></h3>
+				<p>Nací en enero del 2001, actualmente tengo 20 años. Soy técnico en Administración de Empresas y me encuentro cursando la carrera de Ingeniería en Sistemas en la Universidad Tecnológica Nacional. En mis tiempos de ocio disfruto entrenar, tocar la guitarra y aprender cosas nuevas que me llamen la atención o me parezcan interesantes, ver series/peliculas y jugar algún videojuego.</p><br>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<img src="imagenes/yo.jpg" alt="yo" class="yo">
+					</div>
+					<div class="col-md-1"></div>
+				</div>		
 			</div>
 			<div class="col-md-8 fondo2">
 				<h3 class="centrado"><b>Mis conocimientos</b></h3>
