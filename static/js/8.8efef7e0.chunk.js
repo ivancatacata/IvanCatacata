@@ -1,0 +1,2 @@
+(this.webpackJsonpivancatacata=this.webpackJsonpivancatacata||[]).push([[8],{50:function(a,e,t){"use strict";t.r(e);var r=t(1),c=t.n(r),n=t(2);var s=function(){return Object(n.jsx)(c.a.Fragment,{children:Object(n.jsx)("footer",{className:" centrar",children:Object(n.jsx)("p",{children:"Gracias por entrar a la p\xe1gina espero que les guste!"})})})};e.default=function(a){var e=a.children;return Object(n.jsxs)(c.a.Fragment,{children:[e,Object(n.jsx)(s,{})]})}}}]);
+//# sourceMappingURL=8.8efef7e0.chunk.js.map
